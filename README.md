@@ -1,6 +1,6 @@
 <div align="center">
 
-# asdf-shellbits [![Build](https://github.com/omissis/asdf-shellbits/actions/workflows/build.yml/badge.svg)](https://github.com/omissis/asdf-shellbits/actions/workflows/build.yml) [![Lint](https://github.com/omissis/asdf-shellbits/actions/workflows/lint.yml/badge.svg)](https://github.com/omissis/asdf-shellbits/actions/workflows/lint.yml)
+# asdf-shellbits [![Build](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/build.yml/badge.svg)](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/build.yml) [![Lint](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/lint.yml/badge.svg)](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/lint.yml)
 
 [shellbits](https://github.com/mecha-ci/shellbits) plugin for the [asdf version manager](https://asdf-vm.com).
 
@@ -27,7 +27,7 @@ Plugin:
 ```shell
 asdf plugin add shellbits
 # or
-asdf plugin add shellbits https://github.com/omissis/asdf-shellbits.git
+asdf plugin add shellbits https://github.com/mecha-hq/asdf-shellbits.git
 ```
 
 shellbits:
@@ -42,19 +42,19 @@ asdf install shellbits latest
 # Set a version globally (on your ~/.tool-versions file)
 asdf global shellbits latest
 
-# Now shellbits commands are available
-true
+# Now shellbits scripts and makefiles are available
+shellbits --help
 ```
 
-Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
+Check [asdf](https://github.com/asdf-vm/asdf)'s or [mise](https://mise.jdx.dev)'s (preferred) readmes for more instructions on how to
 install & manage versions.
 
 # Contributing
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/omissis/asdf-shellbits/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/mecha-hq/asdf-shellbits/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [Claudio Beatrice](https://github.com/omissis/)
+See [LICENSE](LICENSE) © [Mecha HQ](https://github.com/mecha-hq/)

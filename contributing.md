@@ -6,7 +6,7 @@ Testing Locally:
 asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
 
 # TODO: adapt this
-asdf plugin test shellbits https://github.com/omissis/asdf-shellbits.git "true"
+asdf plugin test shellbits https://github.com/mecha-hq/asdf-shellbits.git "shellbits --help"
 ```
 
 Tests are automatically run in GitHub Actions on push and PR.
