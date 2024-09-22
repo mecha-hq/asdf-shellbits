@@ -2,7 +2,7 @@
 
 # asdf-shellbits [![Build](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/build.yml/badge.svg)](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/build.yml) [![Lint](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/lint.yml/badge.svg)](https://github.com/mecha-hq/asdf-shellbits/actions/workflows/lint.yml)
 
-[shellbits](https://github.com/mecha-ci/shellbits) plugin for the [asdf version manager](https://asdf-vm.com).
+[shellbits](https://github.com/mecha-hq/shellbits) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 

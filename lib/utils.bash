@@ -3,7 +3,7 @@
 set -euo pipefail
 
 # TODO: Ensure this is the correct GitHub homepage where releases can be downloaded for shellbits.
-GH_REPO="https://github.com/mecha-ci/shellbits"
+GH_REPO="https://github.com/mecha-hq/shellbits"
 TOOL_NAME="shellbits"
 TOOL_TEST="shellbits --help"
 
