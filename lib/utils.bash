@@ -38,8 +38,11 @@ download_release() {
 	local version filename url
 	version="$1"
 	filename="$2"
-
 	url="$GH_REPO/archive/v${version}.tar.gz"
+
+	if [ "$version" == "main" ]; then
+		url="$GH_REPO/archive/main.tar.gz"
+	fi
 
 	echo "* Downloading ${TOOL_NAME} release ${version}..."
 	curl "${curl_opts[@]}" -o "${filename}" -C - "${url}" || fail "Could not download ${url}"
